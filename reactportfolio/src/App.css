@@ -3,7 +3,7 @@
 
 body{
   font-size: 16px;
-  background: rgb(213, 247, 245);
+  background: rgb(58, 21, 0);
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
   z-index: 1;
@@ -14,16 +14,14 @@ body{
   text-align: center;
 }
 
-
-
 .App-header {
-  position: relative;
-  min-height: 100vh;
+  /* position: relative; */
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: black;
-  top:4em;
+  color: white;
+  top:1em;
 }
 .heading-background{
   position: fixed;
@@ -59,7 +57,7 @@ nav li{
 }
 nav li .link{
   text-decoration: none;
-  color: black;
+  color: white;
   padding:1em;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -73,25 +71,6 @@ li .link:hover{
 .active{
   color:black;
   opacity: 1;
-}
-
-.header-title button{
-  background: black;
-  border: 0px;
-  padding: 1em 3em;
-  transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-}
-.header-title button:hover{
-  opacity: 0.8;
-}
-.header-title button a{
-  font-family: 'Open Sans', sans-serif;
-  color:white;
-  text-decoration: none;
 }
 .header-title{
   position: relative;
@@ -112,11 +91,13 @@ li .link:hover{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
+  color: white;
 }
 .about-content p{
   font-size: 1.3em;
   text-align: left;
   width: 37em;
+  color: white;
 }
 .about img{
   margin-left: 5em;
@@ -126,18 +107,20 @@ li .link:hover{
   display: flex;
   flex-direction: column;
   left:15em;
-  top:8em;
+  top:3em;
   align-items: flex-start;
 }
 .work .heading{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
+  color: white;
 }
 .work .work-content{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 2em;
+  color: white;
 }
 
 .project img{
@@ -146,23 +129,25 @@ height: 30em;
 }
 .contact{
   position: relative;
-  top:20em;
+  top:8em;
   left:15em;
   text-align: left;
+  color: white;
 }
 .contact h1{
     font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
+  color: white;
 }
 .amazing-color{
-  color:blue;
+  color:orange;
   opacity: 1;
 }
 
 .contact .email{
-  color:black;
   font-size: 2em;
+  color: white;
 }
 .contact li{
   display: inline-block;
@@ -173,12 +158,13 @@ height: 30em;
 }
 .contact li a{
   text-decoration: none;
-  color:black;
+  color: white;
 }
 .footer{
   position: relative;
   top:2em;
   padding: 1em;
+  color: white;
 }
 .footer a{
   text-decoration: none;
