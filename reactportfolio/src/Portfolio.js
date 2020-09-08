@@ -55,6 +55,22 @@ export default {
         "https://i.imgur.com/tORstcq.png",
       url: "https://github.com/hozerpffp2009/eatdaburger",
     },
+    {
+      id: 5, 
+      title: "Work Day Calender",
+      service: "web application",
+      imageSrc:
+        "https://i.imgur.com/qHO0NMa.png",
+      url: "https://hozerpffp2009.github.io/workcalender/",
+    },
+    {
+      id: 6, 
+      title: "Employee Template",
+      service: "Node express",
+      imageSrc:
+        "https://i.imgur.com/N6nMpes.png",
+      url: "https://github.com/hozerpffp2009/employeeTemplate",
+    },
   ],
   social: [
     // Links for github, linkedin and resume

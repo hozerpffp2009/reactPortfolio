@@ -101,7 +101,8 @@ li .link:hover{
   color: white;
 }
 .about img{
-  margin-left: 5em;
+  margin-left: 1em;
+  width: 280px;
 }
 .work{
   position: relative;
