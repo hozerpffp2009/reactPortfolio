@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../Portfolio';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class Contact extends Component {
     state = {  }
@@ -22,6 +23,29 @@ class Contact extends Component {
                 </ul>
         </div>
         </Fade>
+
+        <div className="links">
+        <ul>
+                <li><Link
+                    className='link'
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >About</Link></li>
+                <li><Link
+                    className='link'
+                    activeClass="active"
+                    to="work"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >Projects</Link></li>
+            </ul>
+            </div>
 
             <span className='footer'>Created by Joseph Arocha</span>
         </div>);

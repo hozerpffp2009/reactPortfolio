@@ -8,7 +8,9 @@ body{
   overflow-x: hidden;
   z-index: 1;
 }
-
+.links{
+  cursor: pointer;
+}
 
 .App {
   text-align: center;
@@ -45,7 +47,6 @@ padding: 2em;
 margin-right: 50em;
 }
 nav{
-  position:fixed;
   left:60em;
   top:6em;
 z-index: 100;
