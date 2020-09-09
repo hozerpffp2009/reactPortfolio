@@ -10,6 +10,7 @@ class Contact extends Component {
         <h1>
                 <Fade bottom cascade> Contact</Fade>
         </h1>
+        {data.ShowAboutImage ? <img src={data.aboutImage} alt='about image'></img> : null}
         <Fade bottom>
         <div className='contact-content'>
                 <h3>
@@ -46,7 +47,7 @@ class Contact extends Component {
                 >Projects</Link></li>
             </ul>
             </div>
-
+          
             <span className='footer'>Created by Joseph Arocha</span>
         </div>);
     }
