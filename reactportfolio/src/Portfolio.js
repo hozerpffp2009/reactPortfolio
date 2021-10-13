@@ -1,3 +1,4 @@
+
 export default {
 
   name: "",
@@ -23,14 +24,10 @@ export default {
   projects: [
     {
       id: 1, 
-      title: "Team Player", // First project developed with a team.
-      service: "Team Project", 
-      //Project Image 
-      imageSrc:
-       "https://i.imgur.com/fzjS1sR.png",
-      //Project URL 
-      url: "https://nabi-0.github.io/Project1/",
-    },
+      title: "ANJ Investments",
+      service: "React",
+      imageSrc: "https://i.imgur.com/FPY1v51.png", url: "https://hozerpffp2009.github.io/gordo-flaca/"},
+   
     {
       id: 2, 
       title: "MobileXchange",
@@ -65,11 +62,13 @@ export default {
     },
     {
       id: 6, 
-      title: "Employee Template",
-      service: "Node express",
+      title: "Team Player", // First project developed with a team.
+      service: "Team Project", 
+      //Project Image 
       imageSrc:
-        "https://i.imgur.com/N6nMpes.png",
-      url: "https://github.com/hozerpffp2009/employeeTemplate",
+       "https://i.imgur.com/fzjS1sR.png",
+      //Project URL 
+      url: "https://nabi-0.github.io/Project1/",
     },
   ],
   social: [
